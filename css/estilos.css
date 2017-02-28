@@ -1,0 +1,24 @@
+/*Orden en que van los elementos 
+1.- Pseudo-elementos
+	Contiene atributos
+2.- Etiquetas <etiquetas>
+	Contiene atributos
+3.- Identificadores
+	Contiene atributos
+4.- Clases
+	Contiene atributos
+5.- Elemento de responsive design
+	(diseño adaptativo)
+		Contiene atributos
+Todos ellos en orden alfabético
+Tanto elementos como atributos*/
+
+body{
+	/*atributo : valor;*/
+	background: #885566; /*rgb(255,255,255) rgba(255,255,255,0.5)*/
+	border: 1px solid red;
+	color: white;
+	font-size: 16px; /* (em,%) la unidad de medida estandar de las paginas es 16px, lo ponemos en base para acomodar*/
+	max-width: 1024px; /*Es el estandar para que se vea bien en la mayoria de los dispositivos*/
+	
+}
