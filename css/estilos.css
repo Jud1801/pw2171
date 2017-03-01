@@ -17,8 +17,28 @@ body{
 	/*atributo : valor;*/
 	background: #885566; /*rgb(255,255,255) rgba(255,255,255,0.5)*/
 	border: 1px solid red;
-	color: white;
+	color: black;
 	font-size: 16px; /* (em,%) la unidad de medida estandar de las paginas es 16px, lo ponemos en base para acomodar*/
 	max-width: 1024px; /*Es el estandar para que se vea bien en la mayoria de los dispositivos*/
 	
+	margin: 0px auto;
+}
+header{
+	border: 1px solid blue;
+	text-align: center;
+}
+header img{ /*los pixeles no mantienen la proporción de la imágen, se debe redimencionar desde la esquina*/
+	float: right;
+	margin: -70px 20px 0px 0px;
+	width: 90px; /*si solo se cambia el ancho, el alto se autoajusta*/
+}
+header nav ul li{
+	/*border: 1px solid tomato;*/
+	background: tomato;
+	border-radius: 10px;
+	color: white;
+	display: inline-block;
+	margin: 0px 10px 0px 0px;
+	padding: 5px 10px;
+	width: 84px;
 }
