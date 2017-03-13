@@ -42,3 +42,14 @@ header nav ul li{
 	padding: 5px 10px;
 	width: 84px;
 }
+header nav ul li{
+	/*border: 1px solid tomato;*/
+	background: blue;
+	border-radius: 5px;
+	box-shadow: 5px 5px 1px black;
+	color:white;
+	display: inline-block;
+	margin: 0px 10px 0px 0px;
+	padding: 5px 10px;
+	width: 84px;
+}
