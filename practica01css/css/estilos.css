@@ -1,15 +1,23 @@
 body{
-	border: 1px solid blue;
-	font-size: 16px; /*1em*/
+	/*border: 1px solid blue;
+*/	font-size: 16px; /*1em*/
 	margin: 0 auto;
 	max-width: 1024px;
 }
- form{
- 	float: right;
- 	margin-top: -35px;
- 	margin-right: 20px;
- }
+form{
+	float: right;
+	margin-top: -35px;
+	margin-right: 20px;
+}
 
+form input{	/*todos los input dentro del form*/
+	border-radius: 5px;
+}
+
+form input[type="button"]{ /*Todo lo que este en form que sea input pero solo los botones*/
+	background: green;
+	color: white;
+}
 header{
 	background: #B3D8EB;
 }
@@ -30,4 +38,46 @@ header nav ul li{
 
 #logo{ /*El id lleva un # y el class lleva un .*/
 	margin-top: -150px;
+}
+
+#seccion01 article{
+	/*border: 1px solid red;*/
+	text-align: center;
+}
+
+#seccion01 article img{
+	border: 3px solid rgba(150,150,150,0.5);
+	margin-top: 8px;
+	width: 99%;
+}
+
+#seccion02 article{
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	margin-left: 1px;
+	vertical-align: top;
+	width: 32.8%;
+}
+
+#seccion02 article input{
+	background: rgba(230,230,230,0.2);
+	border: 1px solid rgba(150,150,150,0.5);
+	border-radius: 3px;
+	color: blue;
+	margin-left: 35%;
+	padding: 5px 12px;
+}
+
+.otraSeccion, .unaSeccion{ /*si hay elementos en comun, se pueden poner de esta forma*/
+	font-weight: bold;
+}
+
+.otraSeccion{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+}
+
+.unaSeccion{
+	font-family: 'Lato', sans-serif;
+	font-size: 4.5em;
 }
