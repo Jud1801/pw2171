@@ -1,0 +1,71 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0 auto; /*centramos el body*/
+	max-width: 1078px; /*empresa-cliente*/
+	min-width: 1078px;
+	border: 1px solid red;
+}
+
+header input{
+	float: right;
+	margin-right: -230px;
+	margin-top: 15px;
+	position: relative; 
+/*  static, absolute, fixed
+	Todos los elementos son static por default
+	El relativo significa que va a cumplir con todo lo que tiene la caja, 
+	incluyendo el nivel de profundidad (z-index) como todo es static, 
+	se quedan detras de los que se ponen en relativo
+	Fixed es para cuando se fija un elemento en la pagina, cuando mueves la pagina y 
+	ya sea la cabecera o el foot no se mueven
+	Absolute rompe el modelo de caja deja navegar a los elementos de la caja principal
+	es peligro porque puede irse a donde nadie le importa D:*/
+}
+
+header nav{
+	/*border: 1px solid red;*/
+	margin-left: 220px;
+	/*text-align: center;*/	
+}
+
+header nav ul li{
+	border-bottom: 1px solid gray; /*dashed en lugar de solid puntea*/
+	color: gray;
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.8em;
+	margin-right: 15px;
+	/*text-decoration: underline;*/
+}
+
+#granthams{ /*logo de la empresa*/
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+#paint{
+	float: right;
+}
+
+#primeraSeccion{
+	height: 318px;
+	margin-top: 55px;
+}
+
+#primeraSeccion article{
+	border: 1px solid red;
+	display: inline-block;
+}
+
+#secc01art01{
+	width: 60%;
+}
+
+#secc01art01 img{
+	width: 100%;
+}
+
+#secc01art02{
+	width: 35%;
+}
+
