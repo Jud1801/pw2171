@@ -1,9 +1,9 @@
 body{
+	/*border: 1px solid red;*/
 	font-size: 16px; /*1em*/
 	margin: 0 auto; /*centramos el body*/
 	max-width: 1078px; /*empresa-cliente*/
 	min-width: 1078px;
-	border: 1px solid red;
 }
 
 header input{
@@ -34,8 +34,14 @@ header nav ul li{
 	display: inline-block;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.8em;
-	margin-right: 15px;
+	margin-right: 20px;
 	/*text-decoration: underline;*/
+}
+
+#bgoffer{
+	left: -45px;
+	position: relative;
+	top: -410px;
 }
 
 #granthams{ /*logo de la empresa*/
@@ -49,23 +55,85 @@ header nav ul li{
 
 #primeraSeccion{
 	height: 318px;
-	margin-top: 55px;
+	margin-top: 60px;
 }
 
 #primeraSeccion article{
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 	display: inline-block;
+	vertical-align: top;
 }
 
 #secc01art01{
+	margin-left: 30px;
 	width: 60%;
 }
 
 #secc01art01 img{
-	width: 100%;
+	/*width: 100%;*/
 }
 
 #secc01art02{
-	width: 35%;
+	margin-left: 70px;
+	width: 25%;
+}
+
+#secc01art02 ul{
+	list-style: none;
+}
+
+#secc01art02 ul li:before{ /*Es para modificar cada uno de los li antes de su texto*/
+	content:"• " ;
+	color: pink;
+}
+
+#segundaSeccion article{
+	text-align: right;
+	padding-right: 150px;
+}
+
+#terceraSeccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 21%;
+	padding-left: 10px;
+}
+
+#terceraSeccion article img{
+	vertical-align: middle;
+}
+
+#secc03art04{
+	margin-left: 25px;
+	margin-top: 60px;
+}
+
+.colorAzul, .colorRosa, .colorVerde{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.colorAzul{
+	color: #16BEF8;
+}
+
+.colorRosa{
+	color: #F6A3C6;
+}
+
+.colorVerde{
+	color: #A6DE47;
+}
+
+.numerotelefono{
+	color: #FF0099;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.wecanoffer{
+	color: #FF0099;
+	font-size: 3.2em;
+	font-weight: bold;
 }
 
