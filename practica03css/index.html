@@ -4,14 +4,19 @@
 		<meta charset="UTF-8">
 		<title>Practica03</title>
 		<link rel="stylesheet" href="css/estilos.css">
+		<link href="https://fonts.googleapis.com/css?family=Londrina+Outline|Londrina+Shadow" rel="stylesheet">
 	</head>
 	<body>
 		<header>
-			<img src="img/logo.jpg" alt=""><br>
+			<img src="img/logo.jpg" alt="" id="logo">
+			<br>
 			<span id="mithema">MI THEMA EN HTML5</span>
-			<img src="img/red1.png" alt="">
-			<img src="img/red2.png" alt="">
-			<img src="img/red3.png" alt="">
+			
+			<span id="red">
+				<img src="img/red1.png" alt="">
+				<img src="img/red2.png" alt="">
+				<img src="img/red3.png" alt="">
+			</span>
 			
 			<nav>
 			
@@ -32,13 +37,14 @@
 		<section>
 			
 			<article id="art01">
-				<article>
+				
+				<article id="art01art01">
 					<img src="img/slider.jpg" alt="">
 				</article>
 
 				<article id="art01art02">
-					Titulo del Post <br>
-					<img src="img/img-post.jpg" alt="" id="imgpost"> <br>
+					<span class="titulopost">Titulo del Post</span><br>
+					<img src="img/img-post.jpg" alt="">
 					<span id="PorAdmin">Por <i>Admin</i> El <i>30/05/2012</i>. En <i>Pruebas</i></span> 
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos error quaerat eos consequuntur, dicta ea temporibus et. Libero alias nam sunt, cumque. Excepturi quos commodi incidunt molestiae voluptate sunt dignissimos!
@@ -48,10 +54,11 @@
 			</article>
 
 			<article id="art02">
+				
 				<article>
-					<span class="titulos">Publicidad</span> <br>
-					<img src="img/publicidad.jpg" alt="">
+					<span class="titulos">Publicidad</span>
 					<span id="publicidad">
+						<img src="img/publicidad.jpg" alt="">
 						<img src="img/publicidad.jpg" alt="">
 						<img src="img/publicidad.jpg" alt="">
 						<img src="img/publicidad.jpg" alt="">
@@ -60,7 +67,7 @@
 				
 				<article>
 					<span class="titulos">Buscador</span> <br>
-					<span id="Search">
+					<span id="search">
 						<input type="search" placeholder="Search...">
 						<input type="button" value="Go">
 					</span>
