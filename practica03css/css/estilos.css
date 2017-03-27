@@ -1,8 +1,9 @@
 body{
-	border: 1px solid red;
+	font-family: 'Lato', sans-serif;
 	font-size: 16px; /*1em*/
 	margin: 0 auto; /*centramos el body*/
 	max-width: 1024px; /*empresa-cliente*/
+	padding: 0px 0px 10px 0px; /*solo por cuestiones visuales, para que se aprecie el cuadro de categoria*/
 }
 
 header nav{
@@ -23,6 +24,7 @@ header nav ul li{
 }
 
 section{
+	background: linear-gradient(#F1F1F1, white 30%);
 	margin:0 auto;
 	width: 96%;
 }
@@ -44,10 +46,31 @@ section #art01, #art02{
 
 #art01art02{
 	margin-top: 20px;
+	padding: 5px 0px 20px 0px;
 }
 
-#art01art02 img{
+#art01art02 article{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#art01art02img img{
 	border: 8px solid lightgrey;
+	margin-right: 10px;
+}
+
+#art01art02post{
+	width: 68%;
+}
+
+#art01art02post input{
+	background: #C4C6C3;
+	border: 1px solid #C4C6C3;
+	border-radius: 8px;
+	color: white;
+	font-style: italic;
+	margin-top: 10px;
+	padding: 8px 7px 8px 7px;
 }
 
 #art02{
@@ -60,6 +83,7 @@ section #art01, #art02{
 	border: 1px solid grey;
 	border-radius: 5px;
 	margin-top: 40px;
+	padding: 0px 0px 20px 0px;
 }
 
 #art02 article ul li{
@@ -79,12 +103,11 @@ section #art01, #art02{
 	margin-left: 30px;
 	font-family: 'Londrina Outline';
 	font-size: 2em;
-	/*font-weight: bold;*/
 }
 
 #publicidad{
 	display: inline-block;
-	padding: 20px 2px 15px 2px;
+	padding: 20px 2px 0px 2px;
 	text-align: center;
 }
 
@@ -105,14 +128,30 @@ section #art01, #art02{
 	margin-left: 15%;
 }
 
+#search input{
+	border-radius: 10px;
+	border: 1px solid black;
+	color: white;
+	padding: 3px 2px 3px 2px;
+}
+
+.PorAdmin{
+	background: #FAFAFA;
+	border: 1px solid lightgrey;
+	border-radius: 12px;
+	display: block;
+	padding: 10px 0px 10px 0px;
+}
+
 .titulopost{
 	font-size: 1.8em;
 	font-weight: bold;
+	color: grey;
 }
 
 .titulos{
 	background: linear-gradient(#DD4812, #FD9155, #DD4812 60%);
-	border-radius: 15px;
+	border-radius: 13px;
 	color: white;
 	display: block;
 	font-size: 1.2em;
@@ -121,7 +160,3 @@ section #art01, #art02{
 	padding: 8px;
 	text-align: center;
 }
-
-
-
-/*#C4C6C3 GRIS BOTON!*/
