@@ -41,7 +41,7 @@ section #art01, #art02{
 }
 
 #art01art01, #art01art02{
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid gray;
 }
 
 #art01art02{
@@ -55,7 +55,7 @@ section #art01, #art02{
 }
 
 #art01art02img img{
-	border: 8px solid lightgrey;
+	border: 8px solid lightgray;
 	margin-right: 10px;
 }
 
@@ -80,14 +80,14 @@ section #art01, #art02{
 
 #art02 article{
 	background: #FAFAFA;
-	border: 1px solid grey;
+	border: 1px solid gray;
 	border-radius: 5px;
 	margin-top: 40px;
 	padding: 0px 0px 20px 0px;
 }
 
 #art02 article ul li{
-	border-bottom: 1px dashed grey;
+	border-bottom: 1px dashed gray;
 	font-size: 1.2em;
 	margin-top: 10px;
 	padding: 2px 0px;
@@ -122,7 +122,7 @@ section #art01, #art02{
 }
 
 #search{
-	border: 1px solid grey;
+	border: 1px solid gray;
 	border-radius: 20px;
 	padding: 7px;
 	margin-left: 15%;
@@ -137,7 +137,7 @@ section #art01, #art02{
 
 .PorAdmin{
 	background: #FAFAFA;
-	border: 1px solid lightgrey;
+	border: 1px solid lightgray;
 	border-radius: 12px;
 	display: block;
 	padding: 10px 0px 10px 0px;
@@ -146,7 +146,7 @@ section #art01, #art02{
 .titulopost{
 	font-size: 1.8em;
 	font-weight: bold;
-	color: grey;
+	color: gray;
 }
 
 .titulos{
