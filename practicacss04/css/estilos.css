@@ -1,0 +1,23 @@
+body{
+	font-size: 16px; /*1em*/
+	/*background: #265D8E;*/
+	margin: 0 auto; /*centramos el body*/
+	max-width: 1024px; /*empresa-cliente*/
+}
+
+header nav{
+	background: #ECECEE;
+	/*float: right;*/
+	display: block;
+	text-align: right;
+	vertical-align: top;
+}
+
+header nav ul li{
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+header nav ul li img{
+	width: 90px;
+}
