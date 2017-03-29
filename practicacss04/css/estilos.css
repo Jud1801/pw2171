@@ -5,12 +5,17 @@ body{
 	max-width: 1024px; /*empresa-cliente*/
 }
 
+header{
+	border: 1px solid red;
+	text-align: center;
+}
+
 header nav{
 	background: #ECECEE;
-	/*float: right;*/
-	display: block;
+	border-radius: 8px;
 	text-align: right;
 	vertical-align: top;
+	/*width: 98%;*/
 }
 
 header nav ul li{
@@ -20,4 +25,67 @@ header nav ul li{
 
 header nav ul li img{
 	width: 90px;
+}
+
+section{
+	margin: 0 auto;
+	width: 99%;
+}
+
+section #art01, #art02{
+	display: inline-block;
+	margin-left: 6px;
+	vertical-align: top;
+}
+
+#art01{
+	width: 23%;
+}
+
+#art01link{
+	border: 1px solid #0000DD;
+	margin-top: 10px;
+	text-align: left;
+}
+
+#art01link ul{
+	margin-top: -5px;
+}
+
+#art01link ul li{
+	color: white;
+	list-style: none;
+	margin-left: -30px;
+	margin-top: 7px;
+}
+
+#art01progress{
+	border: 1px solid #0000DD;
+	margin-top: 20px;
+}
+
+#art01progress ul li{
+	list-style: none;
+	margin-left: -30px;
+}
+
+#art01progress ul li img{
+	margin-left: -5px;
+	width: 220px;
+}
+
+#art02{
+	border: 1px solid red;
+	width: 75%;
+}
+
+#logoprogress{
+	vertical-align: middle;
+	width: 30px;
+}
+
+#progresstitulo{
+	background: #265D8E;
+	display: block;
+	padding: 5px 0px;
 }
