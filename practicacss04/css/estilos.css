@@ -1,4 +1,5 @@
 body{
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px; /*1em*/
 	/*background: #265D8E;*/
 	margin: 0 auto; /*centramos el body*/
@@ -6,16 +7,19 @@ body{
 }
 
 header{
-	border: 1px solid red;
+	background: #265D8E;
+	padding: 0% 0% 70%;
 	text-align: center;
 }
 
 header nav{
 	background: #ECECEE;
 	border-radius: 8px;
+	margin-left: 5px;
+	padding: 5px 0px;
 	text-align: right;
 	vertical-align: top;
-	/*width: 98%;*/
+	width: 99%;
 }
 
 header nav ul li{
@@ -28,7 +32,10 @@ header nav ul li img{
 }
 
 section{
+	background: #ECECEE;
 	margin: 0 auto;
+	margin-top: -71%;
+	padding: 0px 0px 30px;
 	width: 99%;
 }
 
@@ -43,9 +50,13 @@ section #art01, #art02{
 }
 
 #art01link{
-	border: 1px solid #0000DD;
+	background: #20507B;
 	margin-top: 10px;
 	text-align: left;
+}
+
+#art01link img{
+	width: 100.2%;
 }
 
 #art01link ul{
@@ -60,11 +71,13 @@ section #art01, #art02{
 }
 
 #art01progress{
-	border: 1px solid #0000DD;
+	background: white;
+	color: white;
 	margin-top: 20px;
 }
 
 #art01progress ul li{
+	color: gray;
 	list-style: none;
 	margin-left: -30px;
 }
@@ -75,8 +88,47 @@ section #art01, #art02{
 }
 
 #art02{
-	border: 1px solid red;
+	background: white;
+	margin-top: 10px;
+	padding: 0px 0px 20px;
 	width: 75%;
+}
+
+#art02verde{
+	background: #23A72B;
+}
+
+#art02azul{
+	background: #216EA7;
+}
+
+#art02morado{
+	background: #7E23A4;
+}
+
+#art02rojo{
+	background: #A41C1F;
+}
+
+#art02simple article{
+	border-radius: 3px;
+	color: white;
+	display: inline-block;
+	height: 140px;
+	margin-left: 18px;
+	margin-right: -12px;
+	text-align: center;
+	vertical-align: top;
+	width: 23%;
+}
+
+#art02simple article img{
+	margin-top: 5px;
+	width: 80px;
+}
+
+#logo{
+	width: 180px;
 }
 
 #logoprogress{
@@ -84,8 +136,54 @@ section #art01, #art02{
 	width: 30px;
 }
 
+#paneles {
+	margin-left: 15px;
+	width: 96%;
+}
+
 #progresstitulo{
 	background: #265D8E;
 	display: block;
 	padding: 5px 0px;
+}
+
+.titulo{
+	color: gray;
+	display: block;
+	font-size: 1.1em;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.usuario{
+	background: #216EA7;
+	color: white;
+	display: inline-block;
+	height: 200px;
+	margin-left: 18px;
+	margin-right: -12px;
+	padding: 0px 0px 10px;
+	text-align: center;
+	vertical-align: top;
+	width: 23%;
+}
+
+.user{
+	font-size: 1.5em;
+}
+
+.usuario img{
+	margin-top: 5px;
+	height: 130px;
+	width: 140px;
+}
+
+.usuario input{
+	background: #64BBE2;
+	border: 1px solid #64BBE2;
+	border-radius: 3px;
+	color: white;
+	font-size: 0.9em;
+	margin-top: 5px;
+	padding: 5px 10px;
 }
