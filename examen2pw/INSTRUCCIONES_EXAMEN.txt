@@ -1,0 +1,17 @@
+ PROGRAMACION WEB
+SEGUNDO EXAMEN PARCIAL
+
+INSTRUCCIONES: 
+1.- Utilizando HTML5 y CSS3, realice el diseño indicado en el archivo "completo.png".
+2.- El archivo base HTML5 está en "index.html".
+3.- El archivo base de CSS3 está en "css/estilos.css".
+4.- Las imágenes que va a necesitar están en la carpeta "img".
+5.- Puede basarse en apuntes o prácticas realizadas en clase.
+6.- Durante el examen, la transferencia de archivos por medio de memorias USB, correo electrónico, AirDrop o cualquier otro medio electrónico será causa de anulación del examen.
+7.- No se permite platicar entre compañeros, si tiene alguna duda, levante la mano y lo atiendo.
+8.- Tienen 2 horas para terminar el examen.
+9.- Al finalizar, comprimir la carpeta con todos los archivos y enviarla a martileo@hotmail.com
+Nota: Lea bien el correo electrónico o copie y pegue, si no llega su código en el periodo del examen, no se recibe después.
+10.- Di no a la copia.
+------------------------------
+
