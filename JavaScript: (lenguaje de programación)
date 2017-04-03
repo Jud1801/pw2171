@@ -1,0 +1,17 @@
+JavaScript: (lenguaje de programación)
+
+Sirve para integrar un lenguaje de programación en nuestro HTML
+Permite realizar validaciones del lado del cliente
+
+Se evita el ocultamiento, es JavaScript del lado del cliente
+Existen tecnicas para encriptar el código
+
+*Se integra con HTML para validaciones.
+*Nombre original: LiveScript (menos poderoso).
+*Sintáxis Java. (if, for, while, etc...)
+*Punto y coma es opcional (se recomienda).
+*Elimina el ocultamiento (se mira el código del lado del cliente)
+*Existe JavaScript del lado del servidor en distintas aplicaciones.
+
+
+suma2 = function (a,b){return a+b} <- Función ánónímá, no tiene un nombre definido D:
