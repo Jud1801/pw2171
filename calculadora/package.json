@@ -1,0 +1,22 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Calculadora Básica PW",
+  "main": "main.js",
+  "scripts": {
+    "start":"electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Calculadora",
+    "basica",
+    "pw",
+    "electron"
+  ],
+  "author": "C. Judith Arámburo",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "electron-packager": "^8.6.0"
+  }
+}
