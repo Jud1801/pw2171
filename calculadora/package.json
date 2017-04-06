@@ -4,7 +4,7 @@
   "description": "Calculadora Básica PW",
   "main": "main.js",
   "scripts": {
-    "start":"electron .",
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,6 +17,7 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "electron": "^1.6.2",
-    "electron-packager": "^8.6.0"
+    "electron-packager": "^8.6.0",
+    "electron-require": "^0.3.0"
   }
 }

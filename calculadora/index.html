@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculadora Básica</title>
+		<link rel="stylesheet" href="css/calculadora.css">
+	</head>
+	<body>
+		
+		<h1>Calculadora básica</h1>
+		<form action="#" name="calculadora" id="calculadora">
+			<table>
+				<tr>
+					<td colspan=4>
+						<input type="text" size=20 value=0 id="op1">
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan=4>
+						<input type="text" size=20 value=0 id="op2">
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan=4>
+						<input type="text" size=20 value=0 id="res">
+					</td>
+				</tr>
+				
+				<tr>
+					<td><input type="button" value="7" id="btn07"></td>
+					<td><input type="button" value="8" id="btn08"></td>
+					<td><input type="button" value="9" id="btn09"></td>
+					<td><input type="button" value="+" id="btnSumar"></td>
+				</tr>
+
+				<tr>
+					<td><input type="button" value="4" id="btn04"></td>
+					<td><input type="button" value="5" id="btn05"></td>
+					<td><input type="button" value="6" id="btn06"></td>
+					<td><input type="button" value="-" id="btnRestar"></td>
+				</tr>
+
+				<tr>
+					<td><input type="button" value="1" id="btn01"></td>
+					<td><input type="button" value="2" id="btn02"></td>
+					<td><input type="button" value="3" id="btn03"></td>
+					<td><input type="button" value="*" id="btnMultiplicar"></td>
+				</tr>
+
+				<tr>
+					<td><input type="button" value="CE" id="btnCE"></td>
+					<td><input type="button" value="0"  id="btn00"></td>
+					<td><input type="button" value="="  id="btnIgual"></td>
+					<td><input type="button" value="/"  id="btnDividir"></td>
+				</tr>
+			</table>
+		</form>
+		
+		<script>
+			require('./index.js');
+		</script>
+
+	</body>
+</html>

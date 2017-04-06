@@ -1,0 +1,36 @@
+body{
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 1024px;
+	text-align: center;
+}
+
+form{
+	background: #40E0D0;
+	border: 1px solid #33CCCC;
+	border-radius: 5px;
+	box-shadow: 15px 15px 15px rgba(102,15,130,0.3);
+	margin: 0 auto;
+	padding: 10px;
+	width: 300px;
+}
+
+form input{
+	border-radius: 5px;
+	font-size: 1.7em;
+}
+
+form input[type="text"]{
+	background: #F0F8FF;
+	text-align: right;
+}
+
+form input[type="button"]{
+	background: #9966CC;
+	color: white;
+	width: 50px;
+}
+
+h1{
+	color: #9370DB;
+}
