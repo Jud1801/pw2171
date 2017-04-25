@@ -1,0 +1,13 @@
+body{
+	font-size: 16px;
+	text-align: center;
+}
+
+img{
+	border-radius: 200px;
+	width: 200px;
+}
+
+#txtNombre{
+	font-size: 2em;
+}
