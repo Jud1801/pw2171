@@ -1,11 +1,27 @@
 body{
 	font-size: 16px;
+	margin: 0 auto;
 	text-align: center;
 }
 
 img{
 	border-radius: 200px;
 	width: 200px;
+}
+
+section article{
+	display: inline-block;
+	height: 768px;
+	vertical-align: top;
+}
+
+#art01{
+	background: tomato;
+	width: 30%;
+}
+
+#art02{
+	width: 69.11%;
 }
 
 #txtNombre{
