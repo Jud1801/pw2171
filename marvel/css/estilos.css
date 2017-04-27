@@ -1,0 +1,59 @@
+body{
+	font-size: 16px;
+}
+
+#arriba{
+	background: tomato;
+	height: 50px;
+	padding: 5px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#abajo{
+	background: #F08080;
+	color: white;
+	height: 718px;
+	padding-left: 15px;
+	padding-top: 15px;
+	width: 98.5%;
+}
+
+#abajo article{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#abajoIzquierda{
+	width: 18%;
+}
+
+#abajoDerecha{
+	width: 68%;
+}
+
+#arriba button{
+	background: purple;
+	border: none;
+	border-radius: 6px;
+	color: white;
+	font-size: 1em;
+}
+
+#arriba input{
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+#imgFoto{
+	border: 15px solid purple;
+	border-radius: 150px;
+	display: none;
+	width: 150px;
+}
+
+#txtNombre{
+	font-size: 4em;
+	font-family: "arial";
+	font-weight: bold;
+}

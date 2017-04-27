@@ -20,15 +20,15 @@ function datosRandom(){
 	    $("#txtNombre").html(data.results[0].name.title +". "+
 	    					 data.results[0].name.first +" "+ 
 	    					 data.results[0].name.last); //hace referencia a una seccion este caso un div
-	    $("#txtGender").html(data.results[0].gender);
+	    $("#txtGender").html("Genero: " + data.results[0].gender);
 	  	$("#imgFoto").attr("src",data.results[0].picture.large);
 
-	  	$("#txtLoca").html(data.results[0].location.street +", "+
+	  	$("#txtLoca").html("Dirección: " + data.results[0].location.street +", "+
 	  					   data.results[0].location.city +", "+
 	  					   data.results[0].location.state +", "+
 	  					   data.results[0].location.postcode);
 	  	$("#txtemail").html(data.results[0].email);
-	  	$("#txtLogin").html(data.results[0].login.username +"<br>"+
+	  	$("#txtLogin").html("Login: <br>" + data.results[0].login.username +"<br>"+
 	  					   data.results[0].login.password +"<br>"+
 	  					   data.results[0].login.salt +"<br>"+
 	  					   data.results[0].login.md5 +"<br>"+
@@ -36,9 +36,9 @@ function datosRandom(){
 	  					   data.results[0].login.sha256);
 	  	$("#txtDob").html(data.results[0].dob);
 	  	$("#txtRegis").html(data.results[0].registered);
-	  	$("#txtPhone").html(data.results[0].phone);
-	  	$("#txtCell").html(data.results[0].cell);
-	  	$("#txtID").html(data.results[0].id.name +"-"+
+	  	$("#txtPhone").html("Telefono: " + data.results[0].phone);
+	  	$("#txtCell").html("Celular: " + data.results[0].cell);
+	  	$("#txtID").html("ID: " +data.results[0].id.name +"-"+
 	  					data.results[0].id.value);
 	  	$("#txtNat").html(data.results[0].nat);
 
