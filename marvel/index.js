@@ -1,6 +1,12 @@
 const rq 	= require('electron-require');
 const main 	= rq.remote('./main.js');
 const $ 	= require("jquery");
+//Constantes para imprimit en PDF -8ventana que imprimimos
+const ipc = require('electron').ipcRenderer
+const btnPDF = document.getElementById('btnPDF')
+btnPDF.addEventListener('click', function(event){
+	ipc.send('print-to-pdf')
+})
 
 //http://gateway.marvel.com/v1/public/characters?ts=1&apikey=67788e74df746a1523d8ebb504ee1008&hash=cf5ec9bfa5a156f031a69417cd0e012c&nameStartsWith=
 var buscarPersonaje = function(){
@@ -18,9 +24,13 @@ var buscarPersonaje = function(){
 	url = url + personaje;
 
 	$.ajax({
+		beforeSend: function(){
+			$("#imgLoader").show();
+		},
 		dataType: "json",
 		url: url,
 		success: function(response){ //Data o response es la respuesta json
+			$("#imgLoader").hide();
 			if(response.code==200){ //ok.cat
 				$("#imgFoto").show("slow");
 				$("#imgFoto").attr("src", response.data.results[0].thumbnail.path + "." +
@@ -41,10 +51,23 @@ var buscarPersonaje = function(){
 			}
 		}
 	})
+	$("#txtPersonaje").val(""); //Vaciamos el cuadro de texto
+	$("#txtPersonaje").focus();
+}
+
+var teclaPersonaje = function(tecla){
+	//Enter = 10, 13 (avance de línea y retorno de carro)
+	//which solo detecta el retorno de carro D: 
+	if(tecla.which == 13){
+		buscarPersonaje();
+	}
 }
 
 //Posiciona el cursor en el cuadro de texto
 $("#txtPersonaje").focus();
+
+//Activar las teclas que se presionan en el cuadro de texto
+$("#txtPersonaje").on("keypress", teclaPersonaje);
 
 //Evento del boton btnBuscar-click
 $("#btnBuscar").on("click", buscarPersonaje);

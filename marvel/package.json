@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "paquete":"electron-packager . MarvelApp --overwrite --asar --icon=logo.icns",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,8 +16,14 @@
   "author": "Jud Aramburo",
   "license": "MIT",
   "devDependencies": {
+    "asar": "^0.13.0",
     "electron": "^1.6.6",
     "electron-packager": "^8.6.0",
+    "electron-require": "^0.3.0",
+    "jquery": "^3.2.1"
+  },
+  "dependencies": {
+    "electron": "^1.6.6",
     "electron-require": "^0.3.0",
     "jquery": "^3.2.1"
   }

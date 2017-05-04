@@ -52,6 +52,10 @@ body{
 	width: 150px;
 }
 
+#imgLoader{
+	display: none;
+}
+
 #txtNombre{
 	font-size: 4em;
 	font-family: "arial";
